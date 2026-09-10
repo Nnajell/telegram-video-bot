@@ -4,7 +4,7 @@ import yt_dlp
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
-BOT_TOKEN = os.environ["8885274698:AAFvoRG9oNjms3plNq87WX9d-8SrtQpxs1o"]
+BOT_TOKEN = os.environ["BOT_TOKEN"]
 DOWNLOAD_DIR = "downloads"
 os.makedirs(DOWNLOAD_DIR, exist_ok=True)
 
